@@ -33,6 +33,8 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center gap-8">
           <button onClick={() => scrollTo('about')} className="text-sm font-medium text-zinc-600 hover:text-black transition-colors">About</button>
           <button onClick={() => scrollTo('experience')} className="text-sm font-medium text-zinc-600 hover:text-black transition-colors">Experience</button>
+          <button onClick={() => scrollTo('journey')} className="text-sm font-medium text-zinc-600 hover:text-black transition-colors">Journey</button>
+          <button onClick={() => scrollTo('shanghai')} className="text-sm font-medium text-zinc-600 hover:text-black transition-colors">Shanghai</button>
           <button onClick={() => scrollTo('projects')} className="text-sm font-medium text-zinc-600 hover:text-black transition-colors">Projects</button>
           <button onClick={() => scrollTo('skills')} className="text-sm font-medium text-zinc-600 hover:text-black transition-colors">Skills</button>
           <Button variant="default" size="sm" onClick={() => window.open("mailto:afifmansib123@gmail.com")}>
@@ -51,6 +53,8 @@ const Navbar: React.FC = () => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-zinc-100 p-6 flex flex-col gap-4 shadow-xl">
           <button onClick={() => scrollTo('about')} className="text-left text-lg font-medium">About</button>
           <button onClick={() => scrollTo('experience')} className="text-left text-lg font-medium">Experience</button>
+          <button onClick={() => scrollTo('journey')} className="text-left text-lg font-medium">Journey</button>
+          <button onClick={() => scrollTo('shanghai')} className="text-left text-lg font-medium">Shanghai</button>
           <button onClick={() => scrollTo('projects')} className="text-left text-lg font-medium">Projects</button>
           <button onClick={() => scrollTo('skills')} className="text-left text-lg font-medium">Skills</button>
           <Button className="w-full mt-4" onClick={() => window.open("mailto:afifmansib123@gmail.com")}>Get in Touch</Button>

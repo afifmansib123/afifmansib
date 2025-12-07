@@ -28,3 +28,36 @@ export interface Award {
   description: string;
   year?: string;
 }
+
+export interface JourneySection {
+  title: string;
+  subtitle: string;
+  paragraphs: string[];
+  image?: string;
+  timeline?: TimelineItem[];
+}
+
+export interface TimelineItem {
+  year: string;
+  title: string;
+  description: string;
+  location: string;
+  achievement?: string;
+  image?: string;
+}
+
+export interface GalleryImage {
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
+export interface ShanghaiTrip {
+  year: string;
+  title: string;
+  description: string;
+  achievement: string;
+  duration: string;
+  images: GalleryImage[];
+  certificate?: string;
+}
