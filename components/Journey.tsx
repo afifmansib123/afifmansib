@@ -56,21 +56,19 @@ const Journey: React.FC = () => {
             >
               {/* Image Placeholder */}
               <div className="w-full lg:w-1/2">
-                <div className="relative bg-white rounded-2xl overflow-hidden shadow-lg border border-zinc-200 p-4 sm:p-6">
-                  <div className="relative aspect-video bg-zinc-50 rounded-xl overflow-hidden">
-                    {milestone.image ? (
-                      <img
-                        src={milestone.image}
-                        alt={milestone.title}
-                        className="w-full h-full object-contain"
-                      />
-                    ) : (
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="text-center text-zinc-400">
-                          <Code2 className="w-12 h-12 mx-auto mb-2" />
-                          <p className="text-sm">Image placeholder</p>
-                          <p className="text-xs mt-1">{milestone.title}</p>
-                        </div>
+                <div className="relative aspect-video bg-zinc-100 rounded-2xl overflow-hidden shadow-lg">
+                  {milestone.image ? (
+                    <img
+                      src={milestone.image}
+                      alt={milestone.title}
+                      className="w-full h-full object-contain"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="text-center text-zinc-400">
+                        <Code2 className="w-12 h-12 mx-auto mb-2" />
+                        <p className="text-sm">Image placeholder</p>
+                        <p className="text-xs mt-1">{milestone.title}</p>
                       </div>
                     )}
                   </div>
