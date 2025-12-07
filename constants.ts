@@ -210,7 +210,7 @@ export const JOURNEY: JourneySection = {
     "My introduction to JavaScript in university sparked a love affair—from the elegance of React and the architectural finesse of Next.js. This journey marks the convergence of my analytical background, passion for CS, and the dynamic world of web development.",
     "Join me as I unravel the layers of my exploration, showcasing the impact of JavaScript on my professional odyssey."
   ],
-  image: "/path/to/your/journey-image.jpg" // Replace with actual image path
+  image: "/your/journey-image.jpg" // Replace with actual image path
 };
 
 export const SHANGHAI_TRIPS: ShanghaiTrip[] = [
@@ -221,11 +221,11 @@ export const SHANGHAI_TRIPS: ShanghaiTrip[] = [
     achievement: "Completed comprehensive JavaScript training and earned certification in Alibaba-standard development practices",
     duration: "December 2023 - March 2024",
     images: [
-      { src: "/path/to/shanghai-2023-1.jpg", alt: "Sunmi Shanghai Office 2023", caption: "First day at Sunmi HQ" },
-      { src: "/path/to/shanghai-2023-2.jpg", alt: "Training Session", caption: "JavaScript training with the core team" },
-      { src: "/path/to/shanghai-2023-3.jpg", alt: "Team Photo", caption: "With fellow engineers" }
+      { src: "/shanghai-2023-1.jpg", alt: "Sunmi Shanghai Office 2023", caption: "First day at Sunmi HQ" },
+      { src: "", alt: "Training Session", caption: "JavaScript training with the core team" },
+      { src: "/shanghai-2023-3.jpg", alt: "Team Photo", caption: "With fellow engineers" }
     ],
-    certificate: "/path/to/certificate-2023.jpg"
+    certificate: "/certificate-2023.jpg"
   },
   {
     year: "2025",
@@ -234,14 +234,14 @@ export const SHANGHAI_TRIPS: ShanghaiTrip[] = [
     achievement: "Achieved 98% score on Alibaba-standard training assessment. Recognized for exceptional project delivery and technical leadership",
     duration: "January 2025",
     images: [
-      { src: "/path/to/shanghai-2025-1.jpg", alt: "Sunmi Office 2025", caption: "Second visit to Shanghai HQ" },
-      { src: "/path/to/shanghai-2025-2.jpg", alt: "Project Presentation", caption: "Presenting GPOS achievements" },
-      { src: "/path/to/shanghai-2025-3.jpg", alt: "With CTO", caption: "Recognition from leadership" },
-      { src: "/path/to/shanghai-2025-4.jpg", alt: "Shanghai Skyline", caption: "Shanghai Bund with the team" },
-      { src: "/path/to/shanghai-2025-5.jpg", alt: "Team Gathering", caption: "Celebrating project success" },
-      { src: "/path/to/shanghai-2025-6.jpg", alt: "Office Tour", caption: "Advanced IDE demonstrations" }
+      { src: "/shanghai-2025-1.jpg", alt: "Sunmi Office 2025", caption: "Second visit to Shanghai HQ" },
+      { src: "/shanghai-2023-2.jpg", alt: "Project Presentation", caption: "Presenting GPOS achievements" },
+      { src: "/shanghai-2025-3.jpg", alt: "With CTO", caption: "Recognition from leadership" },
+      { src: "/shanghai-2025-4.jpg", alt: "Shanghai Skyline", caption: "Shanghai Bund with the team" },
+      { src: "/shanghai-2025-5.jpg", alt: "Team Gathering", caption: "Celebrating project success" },
+      { src: "/shanghai-2025-6.jpg", alt: "Office Tour", caption: "Advanced IDE demonstrations" }
     ],
-    certificate: "/path/to/certificate-2025.jpg"
+    certificate: "/certificate-2025.jpg"
   }
 ];
 
@@ -249,21 +249,21 @@ export const JOURNEY_MILESTONES = [
   {
     title: "From CS Student To Developer",
     content: "During my third university year, I had the privilege of learning enterprise application development under Dr. Chayapol Moemeng, a passionate web enthusiast and my advisor. Renowned for his innovative projects, he was not just an instructor but a mentor, serving as the CTO of www.bhalogari.com—an e-commerce platform utilizing Next.js for car sales from Japan to Bangladesh. Starting as an intern and progressing to a junior developer, I experienced the startup world firsthand, benefiting from the expertise of the best JavaScript teacher. This journey not only enhanced my technical skills but also offered insights into the dynamic landscape of enterprise application development.",
-    image: "/path/to/bhalogari-team.jpg"
+    image: "/bhalogari-team.jpg"
   },
   {
     title: "The Sunmi Max IDE Journey",
     content: "A unique facet of the Sunmi Max IDE was its resonance with Alibaba's OpenSumi project, aligning seamlessly with our team of ex-Alibaba engineers. Yet, a hurdle emerged—much of the IDE was in Chinese. As the first foreign engineer, I took on the task of translating code comments and toasts for my own use. Over time, our IDE transformed into a more international tool, culminating in the rapid release of GPOS's first version, a testament to our team's adaptability and collaborative spirit.",
-    image: "/path/to/max-ide-screenshot.jpg"
+    image: "/max-ide-screenshot.jpg"
   },
   {
     title: "JavaScript Beyond The Browser",
     content: "A striking feature of the Sunmi Max IDE lies in its remarkable capability to craft both Android and web applications effortlessly using JavaScript. The real magic unfolds in its automated deployment to various platforms, seamlessly adapting to the mobile and phone versions of Sunmi. I've always believed that associating JavaScript solely with web development is limiting its potential. With tools like Node.js and React Native, we've seen its application in IoT and Android development, but the Max IDE took it a step further. It enabled direct manipulation of IoT devices using vanilla JS. As I delved deeper into this innovative IDE, I discovered that in the new Chinese era of development, local development might not be as popular; instead, this approach is favored for its time-saving benefits.",
-    image: "/path/to/javascript-devices.jpg"
+    image: "/javascript-devices.jpg"
   },
   {
     title: "Leading The Thailand Team",
     content: "As GPOS evolved with added features, my role expanded into training and recruiting foreign engineers in Thailand. Assuming the position of Tech Lead, I spearheaded the software transition for mobile versions. The success of GPOS in the market prompted an invitation from the Shanghai team and CTO, recognizing our accomplishments. During a training program in Shanghai, I led a team of Thai engineers in transforming GPOS from PC to mobile. This transformative experience culminated in a proud moment as I received the certification of being a Max Model Expert and JavaScript Expert. It was an honor to accept this award from our esteemed CTO, a legendary engineer known for shaping Alibaba Cloud—a defining achievement in my professional journey.",
-    image: "/path/to/certificate-max-expert.jpg"
+    image: "/certificate-max-expert.jpg"
   }
 ];
