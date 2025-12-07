@@ -70,8 +70,8 @@ const Journey: React.FC = () => {
                         <p className="text-sm">Image placeholder</p>
                         <p className="text-xs mt-1">{milestone.title}</p>
                       </div>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
               </div>
 
