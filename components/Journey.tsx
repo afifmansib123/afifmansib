@@ -55,7 +55,7 @@ const Journey: React.FC = () => {
               } gap-8 items-center`}
             >
               {/* Image Placeholder */}
-              <div className="w-full lg:w-1/2">
+<div className="w-full lg:w-1/2">
                 <div className="relative aspect-video bg-zinc-100 rounded-2xl overflow-hidden shadow-lg">
                   {milestone.image ? (
                     <img
@@ -70,8 +70,8 @@ const Journey: React.FC = () => {
                         <p className="text-sm">Image placeholder</p>
                         <p className="text-xs mt-1">{milestone.title}</p>
                       </div>
-                    )}
-                  </div>
+                    </div>
+                  )}
                 </div>
               </div>
 

@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-zinc-800 text-center md:text-left text-xs">
-        © {new Date().getFullYear()} All rights reserved. Built with React & Tailwind.
+        © {new Date().getFullYear()} All rights reserved.
       </div>
     </footer>
   );

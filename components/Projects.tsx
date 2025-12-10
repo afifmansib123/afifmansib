@@ -82,9 +82,12 @@ const Projects: React.FC = () => {
         className="mb-16"
       >
         <h2 className="text-4xl font-bold text-zinc-900 mb-6">Featured Projects</h2>
-        <p className="text-zinc-500 max-w-2xl text-lg">
+        <p className="text-zinc-500 max-w-2xl text-lg mb-10">
           A collection of high-impact applications I've architected, from enterprise-grade IoT solutions to entrepreneurial ventures.
         </p>
+        <p className="text-red-400 mb-12">
+  <strong>Please Note:</strong> Many of the projects below require valid authentication and session cookies to function properly. For a fully functional demonstration, please contact me directly.
+</p>
       </motion.div>
 
       {/* Professional Work Section */}

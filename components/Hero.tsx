@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin, FileText, ArrowRight } from 'lucide-react';
+import { Mail, Github, Linkedin, FileText, ArrowRight , Phone} from 'lucide-react';
 import { Button } from './ui/Button';
 import { SOCIAL_LINKS } from '../constants';
 
@@ -28,7 +28,10 @@ const Hero: React.FC = () => {
 
         <div className="flex flex-wrap gap-4">
           <Button onClick={() => window.open(SOCIAL_LINKS.email)} className="gap-2">
-            <Mail className="w-4 h-4" /> Contact Me
+            <Mail className="w-4 h-4" /> afifmansib123@gmail.com
+          </Button>
+          <Button variant="outline" onClick={() => window.open(`tel:${SOCIAL_LINKS.phone}`)} className="gap-2">
+            <Phone className="w-4 h-4" /> 0928148796
           </Button>
           <Button variant="outline" onClick={() => window.open(SOCIAL_LINKS.github)} className="gap-2">
             <Github className="w-4 h-4" /> GitHub
